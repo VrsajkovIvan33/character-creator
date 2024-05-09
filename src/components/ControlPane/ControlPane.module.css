@@ -10,12 +10,19 @@
     to deal with it yet!
   */
   margin-bottom: 32px;
+  /* Scrolling when the options can't fit in the same line */
+  overflow-x: auto;
 }
 
 .title {
   margin: 0;
   /* Optical centering */
   margin-bottom: -4px;
+  padding-bottom: 16px;
+
+  /* Make the title immune to horizontal scroll */
+  position: sticky;
+  left: 0;
 }
 
 .metadata {
