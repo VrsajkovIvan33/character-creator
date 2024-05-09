@@ -1,2 +1,4 @@
 .buttonRow {
+    /* Remove line-wrap to allow for horizontal scrolling */
+    white-space: nowrap;
 }
