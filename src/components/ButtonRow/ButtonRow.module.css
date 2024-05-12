@@ -1,4 +1,11 @@
 .buttonRow {
-    /* Remove line-wrap to allow for horizontal scrolling */
+    /* Horizontal scrolling */
+    overflow-x: auto;
     white-space: nowrap;
+
+    /* Move scroller further away from element */
+    /* -> Increase padding and negate it with negative margin */
+    /* 22 vs 24 -> leave 2px of space on left and right when scrolling */
+    padding: 24px 22px;
+    margin: 0 -22px -24px -22px;
 }
